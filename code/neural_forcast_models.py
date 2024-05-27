@@ -84,6 +84,7 @@ for container_directory in container_directories:
         break  # Exit the loop if the counter exceeds the limit
     
     #counter = counter + 1
+    
     container_directory_path = os.path.join(main_directory, container_directory)
 
     # Find the CSV file inside the container directory
